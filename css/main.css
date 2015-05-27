@@ -1,0 +1,43 @@
+ 
+ /*Periodic Table blocks for navigation*/
+ #hydrogen{
+          width: 32px;
+          height: 39px;
+          background: red;
+          margin-left: 32px;
+        }
+
+ #sblock{
+          width: 65px;
+          height: 234px;
+          background: red;
+          margin-left: 32px;
+        }
+
+ #dblock{
+          width: 324px;
+          height: 156px;
+          background: red;
+          margin: 0 16px 16px 16px;
+          float: right;
+        }
+        
+#helium{
+          width: 32px;
+          height: 39px;
+          background: red;
+          margin-right: 32px;
+        }
+        
+ #pblock{
+          width: 195px;
+          height: 234px;
+          background: red;
+          margin:0 32px 16px 16px;
+        }
+        
+ #fblock{
+          width: 454px;
+          height: 78px;
+          background: red;
+        }
