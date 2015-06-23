@@ -1,63 +1,117 @@
+/*Font Stuff*/ 
+
+
+ body {
+   background-color: #7E8B8B;
+   font-family: 'Rosario', sans-serif;
+   color: #FFF;
+ }
  
+ h1, h2, h3 {
+     font-family:"Rosario";
+     color: #FFF;
+  }
+
+ a{
+   color: inherit;
+  text-decoration: none;
+}
+
+
  /*Periodic Table blocks for navigation*/
+ #title {
+  width:100%;
+  position: absolute;
+  left: -10%;
+  z-index:-1;
+  text-align: center;
+ }
+ 
+ .menuBlocks {
+   background-color: #BFD4D4;
+   text-align: center;
+   border-style: solid;
+   margin: 0;
+   border-Width: 5px;
+   border-color: #FFF;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);   
+ }
+ 
+ .blockLabels {
+   font-family:"Roboto Condensed";
+   font-size: 3em;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 30%;
+   
+ }
  #periodicTable{
   width: 80%;
-        } /*height to be defined in percentage based on javascript*
+  height: 600px;
+        } /*height to be defined in percentage based on javascript*/
 
     #leftSide{
-      width:11%;
-      float: left;
+      width:10%;
+      position: absolute;
+      left:2%;
+      top:3%;
             }
         
          #hydrogen{
           width: 50%;
-          height: 39px;
-          background: red;
+          height: 60px;
+          border-bottom-width: 0px;
                 }
 
          #sblock{
           width: 100%;
-          height: 234px;
-          background: red;
+          height: 360px;
+          border-top-width: 0px;
+          
                 }
     
     #dblock{
       width: 50%;
-      height: 156px;
-      background: red;
-      margin: 0 6% 16px 6%;
+      height: 240px;
       position: absolute;
-      left:13%;
-      top:38%;
+      left:15%;
+      top:30%;
         }
 
     #rightSide {
-      float:left;
-      width:33%;
+      width:30%;
       position: absolute;
-      right:0;
+      left:68%;
+      top:3% ;
         }
 
         #helium{
           width: 17%;
-          height: 39px;
-          background: red;
-          margin-right: 32px;
-          position:absolute;
-          right: 0;
+          height: 60px;
+          border-bottom-width: 0px;
+          position: absolute;
+          left: 83%;
             }
         
         #pblock{
           width: 100%;
-          height: 234px;
-          background: red;
-          margin:0 32px 16px 16px;
-          position:absolute;
-          top: 14%;
+          height: 360px;
+          border-top-width: 0px;
+          position: absolute;
+          left: 0%;
+          top:55%;
             }
         
     #fblock{
           width: 78%;
-          height: 78px;
-          background: red;
+          height: 120px;
+          position: absolute;
+          top: 75%;
+          left:8%;
         }
+  
+#verticalText {
+	transform: rotate(90deg);
+	left: 3%;
+}

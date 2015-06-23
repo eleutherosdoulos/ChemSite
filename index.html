@@ -4,34 +4,55 @@
     <meta charset="utf-8">
     <title>Mr. Harris's Chemistry Class</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400|Rosario:400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+
   </head>
   
   <body>
       
     <header>
-      <a href="index.html">
-        <h1>Mr. Harris' Chemistry Class</h1>
-        <h2>Home</h2>
-       
-      </a>
+      <div id="title">
+        <a href="index.html">
+          <h1>Chemistry Class</h1>
+          <h2>Waggener High School</h2>
+          <h2>Mr. Harris</h2>
+        </a>
+      </div>
       <nav>
         <div id="periodicTable">
           
-          <div id="leftSide">
-            <div id="hydrogen"></div>
-            <div id="sblock"></div> 
-          </div>
+          <a href="html/calendars.html">
+            <div id="leftSide">
+              <div id="hydrogen" class="menuBlocks"></div>
+              <div id="sblock" class="menuBlocks">
+                <h2 id="verticalText" class="blockLabels">Calendars</h2>
+              </div> 
+            </div>
+          </a>
           
-          <div id="dblock"></div> 
+          <a href="html/assignments.html">
+            <div id="dblock" class="menuBlocks">
+              <h2 class="blockLabels">Assignments</h2>
+            </div> 
+          </a>
           
-          <div id="rightSide">
-            <div id="helium" align=></div> 
-            <div id="pblock"></div> 
-          </div>
+          <a href="html/resources.html">
+            <div id="rightSide">
+              <div id="pblock" class="menuBlocks">
+                <h2 class="blockLabels">Resources</h2>
+              </div> 
+              <div id="helium" class="menuBlocks"></div> 
+
+            </div>
+          </a>
           
-          <div id="fblock" ></div>
+          <a href="html/contact.html">
+            <div id="fblock" class="menuBlocks">
+              <h2 class="blockLabels">Contact</h2>
+            </div>
+          </a>
           
         </div>
       </nav>
